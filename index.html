@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Lima da Silva - Portfólio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #007BFF;
+        }
+		
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+		
+		#sobre img {
+			border-radius: 10px;
+			width: 360px;
+			height: 480px;
+		}
+		
+		#portfolio img {
+			border-radius: 5px;
+			width: 25%;
+			height: 25%;
+		}
+		
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;            
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+	
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p>Olá, meu nome é Davi Lima da Silva. Sou confeiteiro e estou animado para compartilhar minhas deliciosas criações com você!</p>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Davi Lima da Silva, tenho 23 anos e sou confeiteiro. Amo fazer doces e tortas irresistíveis para alegrar o paladar de todos, inclusive irei deixar uma demonstração do meu trabalho.</p>
+		<img src="img-sobre.jfif" alt="Imagem sobre" />
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Meu Portfólio</h2>
+        <p>Aqui estão algumas das minhas criações deliciosas:</p>
+        <!-- Adicione imagens ou descrições dos seus doces e tortas aqui -->
+		
+		<img src="img-port1.jfif" alt="Imagem portifólio 1" />		
+		<img src="img-port2.jfif" alt="Imagem portifólio 2" />		
+		<img src="img-port3.jfif" alt="Imagem portifólio 3" />		
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do formulário abaixo ou através das redes sociais.</p>
+
+        <form action="#" method="post">
+            <!-- Substitua processar_formulario.php pelo script de processamento de formulário real -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>		
+		
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2023 Davi Lima da Silva. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
